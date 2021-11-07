@@ -1,0 +1,12 @@
+deb [arch=amd64,i386] http://archive.ubuntu.com/ubuntu trusty main restricted universe multiverse
+deb [arch=amd64,i386] http://security.ubuntu.com/ubuntu trusty-security main restricted universe multiverse
+deb [arch=amd64,i386] http://archive.ubuntu.com/ubuntu trusty-backports main restricted universe multiverse
+deb [arch=arm64,armhf,powerpc,ppc64el] http://ports.ubuntu.com/ trusty main restricted universe multiverse
+deb [arch=arm64,armhf,powerpc,ppc64el] http://ports.ubuntu.com/ trusty-security main restricted universe multiverse
+deb [arch=arm64,armhf,powerpc,ppc64el] http://ports.ubuntu.com/ trusty-backports main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu trusty main restricted universe multiverse
+deb-src http://security.ubuntu.com/ubuntu trusty-security main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu trusty-backports main restricted universe multiverse
+deb-src http://ports.ubuntu.com/ trusty main restricted universe multiverse
+deb-src http://ports.ubuntu.com/ trusty-security main restricted universe multiverse
+deb-src http://ports.ubuntu.com/ trusty-backports main restricted universe multiverse
