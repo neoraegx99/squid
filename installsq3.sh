@@ -14,7 +14,7 @@ echo "deb http://us.archive.ubuntu.com/ubuntu/ trusty main universe" | sudo tee 
 apt update
 apt install -y squid3=3.3.8-1ubuntu6 squid=3.3.8-1ubuntu6 squid3-common=3.3.8-1ubuntu6
 rm -f squid3
-wget https://raw.githubusercontent.com/neoraegx99/squid/main/squid3?token=AS7RBYMMTSOX7URXQPQ5VL3BQ3BLY > /dev/null
+wget https://raw.githubusercontent.com/neoraegx99/squid/main/squid3 > /dev/null
 rm -f /etc/init.d/squid3
 cp squid3 /etc/init.d/
 chmod +x /etc/init.d/squid3
