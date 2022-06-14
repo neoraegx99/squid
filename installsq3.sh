@@ -28,7 +28,7 @@ MYIP=$MIP
 SERVER_IP=$MIP
 cat > /etc/squid3/squid.conf <<END
 http_port 8080
-http_port 1080
+#http_port 1080
 acl url2 dstdomain -i thai4g
 acl localhost src 127.0.0.1/32 ::1
 acl to_localhost dst 127.0.0.0/8 0.0.0.0/32 ::1
